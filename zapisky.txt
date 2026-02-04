@@ -1,0 +1,14 @@
+Qt5 c++ framework pro GUI aplikace do qgisu
+Pyqt5 nástroj pro tvorbu UI pro qgis
+
+iface je rozhrani qgisu dostupne v python konzoli
+
+iface.zoomtoprevious()
+
+
+active_layer = iface.activeLayer()
+iface.showAttributeTable(active_layer)
+iface.showLayerProperties(active_layer)
+
+
+
